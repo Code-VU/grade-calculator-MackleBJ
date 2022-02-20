@@ -7,7 +7,7 @@ def calculateGrade():
     # This first line is provided for you
 
     score = float(input("Enter score:"))
-    if score >= 0.9:
+    if score <= 1.0 and score >= 0.9:
         grade = "A"
     elif score < 0.9 and score >= 0.8:
         grade = "B"
